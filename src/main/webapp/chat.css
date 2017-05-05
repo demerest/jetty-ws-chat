@@ -1,0 +1,16 @@
+#chatArea {
+    height: 700px;
+    width: 800px;
+}
+
+#usersArea {
+    height: 700px;
+    width: 200px;
+    padding-left: 10px;
+}
+
+#chatArea, #usersArea, #inputArea {
+    border: 3px double lightslategrey;
+    margin: 5px;
+    padding: 3px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="chat.js"></script>
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+    <div id="connectBlock">
+        <input name="name" id="name">
+        <button onclick="connect()">Connect</button>
+    </div>
+    <div id="chatBlock" style="display: none">
+        <table>
+            <tr>
+                <td><div id="chatArea"></div></td>
+                <td><div id="usersArea"></div></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div id="inputArea">
+                        <button id="send">Send</button>
+                        <input id="message">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
